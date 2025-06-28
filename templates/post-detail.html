@@ -7,7 +7,8 @@
     <p>{{ post.content }}</p>
     
     enlace para editar el post
-    <a href="{% url 'post-update' post.pk %}">Editar</a
+    <a href="{% url 'post-update' post.pk %}">Editar</a>
+    <a href="{% url 'post-delete' post.pk %}">Eliminar</a>
 {% endblock %}
 
 
