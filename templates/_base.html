@@ -21,6 +21,7 @@
         {% else %}
             <p>Bienvenido, visitante!</p>
             <a href="{% url 'login' %}">Iniciar sesión</a>
+            <a href="{% url 'signup' %}">Registrarse</a>
         {% endif %} 
         <!-- enlace para un nuevo post -->
         <a href="{% url 'post-create' %}">Crear nuevo post</a>
